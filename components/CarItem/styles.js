@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginBottom:10
+    marginBottom: 10,
   },
   headerTitle: {
     color: "white",
@@ -31,21 +31,41 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
     position: "absolute",
   },
-  batterySection:{
-    flexDirection:"row",
-    justifyContent:"center",
-    alignItems:"center",
+  batterySection: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
   },
-  batteryImage:{
-      height:26,
-      width: 70,
-      marginRight:12
+  batteryImage: {
+    height: 26,
+    width: 70,
+    marginRight: 12,
   },
-  batteryText:{
-      color:"white",
-      fontSize:35,
-      fontWeight:"bold"
-  }
+  batteryText: {
+    color: "white",
+    fontSize: 35,
+    fontWeight: "bold",
+  },
+  status: {
+    alignItems: "center",
+  },
+  statusText: {
+    fontSize: 20,
+    color: "white",
+    fontWeight: "bold",
+  },
+  controls: {
+    flexDirection: "row",
+    justifyContent: "center",
+    marginTop: 175,
+  },
+  controlsButton: {
+    borderWidth: 1,
+    borderColor: "white",
+    borderRadius: 50,
+    padding: 18,
+    marginLeft: 25,
+  },
 });
 
 export default styles;
